@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гумова блокова верстка</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .block {
+            border: 2px solid black;
+            box-sizing: border-box;
+        }
+        .header, .footer {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            height: 10vh;
+            width: 100%;
+            line-height: 10vh;
+        }
+        .sidebar-left, .sidebar-right {
+            background-color: yellow;
+            width: 20%;
+            height: 80vh;
+            float: left;
+        }
+        .sidebar-right {
+            float: right;
+        }
+        .content {
+            background-color: white;
+            width: 60%;
+            height: 80vh;
+            float: left;
+            text-align: center;
+            line-height: 80vh;
+        }
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="header block">1</div>
+    <div class="sidebar-left block">5</div>
+    <div class="content block">4</div>
+    <div class="sidebar-right block">2</div>
+    <div class="clear"></div>
+    <div class="footer block">3</div>
+</body>
+</htm

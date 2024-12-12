@@ -1,0 +1,111 @@
+.image{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.deckflex{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.image-div{
+    text-align: right;
+    margin-top: -120px;
+}
+
+.sec-but{
+    text-align:center;
+}
+
+.sec-new{
+display: flex;
+flex-direction: column;
+}
+
+#now{
+    color: #fff;
+    background-color: #562b81;
+}
+
+button{
+    padding: 20px;
+    margin: 2px;
+    color: #fff;
+    background-color: #b78edf;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;    
+}
+
+.format-1{
+    background-color: #592693;
+    font-size: 18px;
+    width: 400px;
+    height: 75px;
+}
+
+.format-2{
+    background-color: #50637b;
+    font-size: 16px;
+    padding: 15px;
+    width: 325px;
+    margin-left: 75px;
+
+}
+.format-11{
+    background-color: #301a4a
+    ;
+    font-size: 18px;
+    width: 400px;
+    height: 75px;
+}
+
+.format-22{
+    background-color: #1e2c3c;
+    font-size: 16px;
+    padding: 15px;
+    width: 325px;
+    margin-left: 75px;
+
+}
+.desc{
+    text-align: right;
+    margin-top: -550px;
+    margin-right: 200px;
+}
+
+.desc2{
+    text-align: right;
+    margin-top: -700px;
+    margin-right: 300px;
+}
+
+.desc3{
+    text-align: right;
+    margin-top: -700px;
+    margin-right: 220px;
+}
+
+.img{
+    width: 700px;
+    object-fit: cover;
+}
+
+.img4{
+    width: 900px;
+    object-fit: cover;
+}
+
+.text{
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.mobile{
+    display: flex;
+    gap: 20px;
+}
